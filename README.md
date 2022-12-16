@@ -53,3 +53,17 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 [Блок-схема](FirstSemi/HomeWork001/Task03_N_Even/Program.cs)
 [КОД](FirstSemi/HomeWork001/Task03_N_Even/HWTask03_N_Even_Block.drawio.png)
+
+# Самостоятельный задачи
+
+## Перечень задач [ЗАДАЧИ](MySelf_Tasks/TASKS!!)
+
+Почувствуй себя интерном 
+
+**Задача 0** 
+
+[КОД](MySelf_Tasks/Feel_Intern/Task00/Program.cs)
+
+**Задача 1** 
+[Блок-схема](MySelf_Tasks/Feel_Intern/Task01/Feel_Intern_Task01_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task01/Program.cs)
+
