@@ -21,11 +21,19 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 ## Семинар 1
 
-
-Это моя первая программа
+**Это моя первая программа**
 
 Вывести квадрат числа – [Блок-схема](FirstSemi/Task001_Square/BlockDiagram.drawio.png) 
 [КОД](FirstSemi/Task001_Square/Program.cs)
+
+**Пример задачи из домашней работы по 1-ому семинару**
+
+Программа на вход принимает два числа
+и выдает какое число больше, а какое меньше:
+
+Способ решения №1 [КОД](FirstSemi/HomeWork001/Task00_BiggestNumber2/Program.cs)
+
+Способ решения №2 [КОД](FirstSemi/HomeWork001/Task00_1_BiggestNumber2/Program.cs)
 
 # Домашняя работа
 
