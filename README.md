@@ -60,10 +60,16 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 Почувствуй себя интерном 
 
-**Задача 0** 
-
-[КОД](MySelf_Tasks/Feel_Intern/Task00/Program.cs)
+**Задача 0** [КОД](MySelf_Tasks/Feel_Intern/Task00/Program.cs)
 
 **Задача 1** 
 [Блок-схема](MySelf_Tasks/Feel_Intern/Task01/Feel_Intern_Task01_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task01/Program.cs)
+
+**Задача 2**  [Блок-схема](MySelf_Tasks/Feel_Intern/Task02/Feel_Intern_Task02_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task02/Program.cs)
+
+**Задача 3**  
+
+– *Версия 1* [Блок-схема](MySelf_Tasks/Feel_Intern/Task03_version01/Feel_Intern_Task03_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task03_version01/Program.cs)
+
+– *Версия 2* [КОД](MySelf_Tasks/Feel_Intern/Task03_version02/Program.cs)
 
