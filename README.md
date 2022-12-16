@@ -19,3 +19,7 @@
 [Блок-схема](FirstSemi/HomeWork001/Task02_EvenNumber/HWTask02_Block.drawio.png)
 [КОД](FirstSemi/HomeWork001/Task02_EvenNumber/Program.cs)
 
+Задача 3 – на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+[Блок-схема](FirstSemi/HomeWork001/Task03_N_Even/Program.cs)
+[КОД](FirstSemi/HomeWork001/Task03_N_Even/HWTask03_N_Even_Block.drawio.png)
