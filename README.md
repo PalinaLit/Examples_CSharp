@@ -17,6 +17,21 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 Нахождение максимального числа – [КОД](FirstLecture/Example006_Base/Program.cs)
 
 Рисунок "+" треугольника Серпинского – [КОД](FirstLecture/Example007_Magic/Program.cs)
+
+## Лекция 2:
+
+Задача на нахождение максимального числа из 9 – [КОД](02Lecture/Example008_MaxFrom9/Program.cs)
+
+Задача на нахождение максимального числа из 9 НОВОЕ РЕШЕНИЕ через МЕТОД – [КОД](02Lecture/Example008_MaxFrom9_Function/Program.cs)
+
+Задача на нахождение максимального числа из 9 НОВОЕ РЕШЕНИЕ через МЕТОД + МАССИВ – [КОД](02Lecture/Example008_MaxFrom9_Massiv/Program.cs)
+
+Нахождение индекса элемента в массиве – [КОД](02Lecture/Example009_FindArrayElement/Program.cs)
+
+Метод по заполнению массива случайными элементами и его вывода в терминал – [КОД](02Lecture/Example010_ArrayLibrary/Program.cs)
+
+Нахождение индекса элемента в массиве с помощью методов заполнения массива случайными числами – [КОД](02Lecture/Example009&010_FindArrayElementLibrary/Program.cs)
+
 # Семинары
 
 ## Семинар 1
