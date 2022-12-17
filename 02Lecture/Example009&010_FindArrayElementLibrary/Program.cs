@@ -37,7 +37,7 @@ int IndexOf(int[] collection, int find)
 {
     int count = collection.Length;
     int index = 0;
-    int position = 0;
+    int position = -1;
     while(index < count)
     {
         // Если элемент массива под номером index 
@@ -65,7 +65,7 @@ PrintArray(array);
 Console.WriteLine();
 Console.WriteLine();
 
-int pos = IndexOf(array, 4);
+int pos = IndexOf(array, 47);
 // в переменную pos вкладываем сгенерированные элементы array и 4
 // По сути find == 4
 
