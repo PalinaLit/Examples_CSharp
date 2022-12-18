@@ -88,3 +88,9 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 – *Версия 2* [КОД](MySelf_Tasks/Feel_Intern/Task03_version02/Program.cs)
 
+**Задача 4**  [Блок-схема](MySelf_Tasks/Feel_Intern/Task04/FeelInternTask04_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task04/Program.cs)
+
+**Задача 5**  [Блок-схема](MySelf_Tasks/Feel_Intern/Task05/FeelInternTask05_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task05/Program.cs)
+
+
+
