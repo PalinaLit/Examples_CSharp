@@ -46,9 +46,9 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 Программа на вход принимает два числа
 и выдает какое число больше, а какое меньше:
 
-Способ решения №1 [КОД](FirstSemi/HomeWork001/Task00_BiggestNumber2/Program.cs)
+Способ решения №1 [КОД](HomeWork/HomeWork001/Task00_BiggestNumber2/Program.cs)
 
-Способ решения №2 [КОД](FirstSemi/HomeWork001/Task00_1_BiggestNumber2/Program.cs)
+Способ решения №2 [КОД](HomeWork/HomeWork001/Task00_1_BiggestNumber2/Program.cs)
 
 ## Семинар 2
 
@@ -67,22 +67,22 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 **Задача 1** – ввод 3-ех чисел и вывод большего из них
 
-[Блок-схема](FirstSemi/HomeWork001/Task01_%20BiggestNumber3/HWTask01_Block.drawio.png)
-[КОД](FirstSemi/HomeWork001/Task01_%20BiggestNumber3/Program.cs)
+[Блок-схема](HomeWork/HomeWork001/Task01_%20BiggestNumber3/HWTask01_Block.drawio.png)
+[КОД](HomeWork/HomeWork001/Task01_%20BiggestNumber3/Program.cs)
 
 **Задача 2** – на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)
 
-[Блок-схема](FirstSemi/HomeWork001/Task02_EvenNumber/HWTask02_Block.drawio.png)
-[КОД](FirstSemi/HomeWork001/Task02_EvenNumber/Program.cs)
+[Блок-схема](HomeWork/HomeWork001/Task02_EvenNumber/HWTask02_Block.drawio.png)
+[КОД](HomeWork/HomeWork001/Task02_EvenNumber/Program.cs)
 
 **Задача 3** – на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
-[Блок-схема](FirstSemi/HomeWork001/Task03_N_Even/Program.cs)
-[КОД](FirstSemi/HomeWork001/Task03_N_Even/HWTask03_N_Even_Block.drawio.png)
+[Блок-схема](HomeWork/HomeWork001/Task03_N_Even/Program.cs)
+[КОД](HomeWork/HomeWork001/Task03_N_Even/HWTask03_N_Even_Block.drawio.png)
 
 # Самостоятельный задачи
 
-## Перечень задач [ЗАДАЧИ](MySelf_Tasks/TASKS!!)
+## Перечень задач [ЗАДАЧИ](TASKS!!)
 
 Почувствуй себя интерном 
 
@@ -105,5 +105,5 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 **Задача 6**  [Блок-схема](MySelf_Tasks/Feel_Intern/Task06/FeelIntern_Task06.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task06/Program.cs)
 
-
+**Задача 7**  [Блок-схема](MySelf_Tasks/Feel_Intern/Task07/FeelInternTask07_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task07/Program.cs)
 
