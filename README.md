@@ -94,4 +94,3 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 
 
-Semi Scond
