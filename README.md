@@ -58,7 +58,7 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 Решение задач из списка самоятоятельный № 37 & № 39 с использованием методов из папки методов для массива – [ЗАДАЧИ](Array/TasksLibrary.cs)
 
-Изначальный проект (сводка задач за сминар) – [ПРОЕКТ ЗАДАЧ](Array/Seminar02.cs)
+Изначальный проект (сводка задач за семинар) – [ПРОЕКТ ЗАДАЧ](Array/Seminar02.cs)
 
 
 # Домашняя работа
@@ -79,6 +79,14 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 [Блок-схема](HomeWork/HomeWork001/Task03_N_Even/Program.cs)
 [КОД](HomeWork/HomeWork001/Task03_N_Even/HWTask03_N_Even_Block.drawio.png)
+
+## Семинар 2:
+
+Бибилиотека с Методами для решения задач – [МЕТОДЫ](HomeWork/HomeWork002/HW02Library.cs)
+
+Файл решения задач и их компановки через методы – [РЕШЕНИЕ ЗАДАЧ С МЕТОДАМИ](HomeWork/HomeWork002/TasksLibrary.cs)
+
+Осноной файл папки (dotnet run) – [ПРОВЕРКА](HomeWork/HomeWork002/Program.cs)
 
 # Самостоятельный задачи
 
