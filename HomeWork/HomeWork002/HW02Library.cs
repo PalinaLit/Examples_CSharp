@@ -1,5 +1,5 @@
 /// <summary>
-/// Библиотека для ДЗ №2
+/// Библиотека для методов к ДЗ №2
 /// </summary>
 public static class HW02Library
 {

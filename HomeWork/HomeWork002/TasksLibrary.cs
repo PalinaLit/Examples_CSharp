@@ -1,3 +1,6 @@
+/// <summary>
+/// Библиотека решения задач к ДЗ №2
+/// </summary>
 using static HW02Library;
 
 public static class TaskHomeWork02
