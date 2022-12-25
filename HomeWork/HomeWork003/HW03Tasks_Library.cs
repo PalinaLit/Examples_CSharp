@@ -83,7 +83,7 @@ public static class HW03Tasks_Library
     public static void Task21()
     {
 
-        Console.WriteLine(DistanceXYPoints(2, 0, 4, 7));
+        Console.WriteLine("Расстояние -> "+DistanceXYPoints(2, 4, 0, 7));
         
         Console.WriteLine();
         Console.WriteLine();
