@@ -42,5 +42,24 @@ public static class Seminar02
         Console.WriteLine(PrintGood(ar));
 
     }    
+
+
+     /// <summary>
+     /// 38. Найти сумму чисел одномерного массива стоящих на нечетной позиции
+     /// </summary>
+    public static void Task038()
+    {
+        // 0. Метод оздание одномерного массива
+        // 1. Метод опрделение нечетности индеса
+        // 2. Метод сложения чисел одномерного массива
+
+        int[] array = CreateArray(10);
+        Fill(array, 1, 14);
+        Console.WriteLine(array);
+
+
+
+    }
+
 }
 
