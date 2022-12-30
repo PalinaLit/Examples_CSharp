@@ -32,6 +32,20 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 Нахождение индекса элемента в массиве с помощью методов заполнения массива случайными числами – [КОД](02Lecture/Example009&010_FindArrayElementLibrary/Program.cs)
 
+## Лекция 3:
+
+Дан текст. В тексте нужно все пробелы заменить черточками, маленькие буквы “к” заменить большими “К”, а большие “С” заменить маленькими “с” – [КОД](03Lecture/Task01_SpaceTo_&kToK&CToc/Program.cs)
+
+Метод сортировки массива – [КОД](03Lecture/Task02_ArraySorting/Program.cs)
+
+## Лекция 3:
+
+Рекурсия. Методы создания и заполнения двумерного массива – [КОД](04Lecture/Recursia/Program.cs)
+
+Задача. Нарисовать кулак с большим пальцем вверх и закрасить его – [КОД](04Lecture/Task_FingerUp/Program.cs)
+
+Примеры факториалов – [КОД](04Lecture/Task!Factorial/Program.cs)
+
 # Семинары
 
 ## Семинар 1
@@ -88,6 +102,14 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 
 Осноной файл папки (dotnet run) – [ПРОВЕРКА](HomeWork/HomeWork002/Program.cs)
 
+## Семинар 3:
+
+Бибилиотека с Методами для решения задач – [МЕТОДЫ](HomeWork/HomeWork003/HW03_Library.cs)
+
+Файл решения задач и их компановки через методы – [РЕШЕНИЕ ЗАДАЧ С МЕТОДАМИ](HomeWork/HomeWork003/HW03Tasks_Library.cs)
+
+Осноной файл папки (dotnet run) – [ПРОВЕРКА](HomeWork/HomeWork003/Program.cs)
+
 # Самостоятельный задачи
 
 ## Перечень задач [ЗАДАЧИ](TASKS!!)
@@ -114,4 +136,21 @@ Hello, World – [КОД](FirstLecture/Example001_HelloConsole/Program.cs)
 **Задача 6**  [Блок-схема](MySelf_Tasks/Feel_Intern/Task06/FeelIntern_Task06.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task06/Program.cs)
 
 **Задача 7**  [Блок-схема](MySelf_Tasks/Feel_Intern/Task07/FeelInternTask07_Block.drawio.png) [КОД](MySelf_Tasks/Feel_Intern/Task07/Program.cs)
+
+**Задача 8**  [КОД](MySelf_Tasks/Feel_Intern/Task08/Program.cs)
+
+**Задача 9**  [КОД](MySelf_Tasks/Feel_Intern/Task09/Program.cs)
+
+**Задача 10**  [КОД](MySelf_Tasks/Feel_Intern/Task10/Program.cs)
+
+**Задача 11**  [КОД](MySelf_Tasks/Feel_Intern/Task11/Program.cs)
+
+**Задача 12 1th version**  [КОД](MySelf_Tasks/Feel_Intern/Task12_1thVersion/Program.cs)
+
+**Задача 12 2th version**  [КОД](MySelf_Tasks/Feel_Intern/Task12_2ndVersion/Program.cs)
+
+**Задача 13**  [КОД](MySelf_Tasks/Feel_Intern/Task13/Program.cs)
+
+**Задача 14**  [КОД](MySelf_Tasks/Feel_Intern/Task14/Program.cs)
+
 
