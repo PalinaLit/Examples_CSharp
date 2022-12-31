@@ -17,9 +17,9 @@ public static class MyLibrary123
     /// <summary>
     /// Метод заполнения массива
     /// </summary>
-    /// <param name="array">Количество элементов массива</param>
+    /// <param name="array">Название (имя) массива</param>
     /// <param name="min">Минимальное значенние переменых в массиве</param>
-    /// <param name="max">Максимальное значение переменных в массиве</param>
+    /// <param name="max">Максимальное значение переменных в массиве + 1</param>
     public static void Fill(int[] array, int min, int max)
     {
         int size = array.Length;
