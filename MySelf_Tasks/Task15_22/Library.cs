@@ -30,4 +30,10 @@ public static class Library
             Console.WriteLine(number+" is NOT multiple of "+forMultiplicityNumber); 
         }
     }
+
+    public static int RasingNumberToThePower(int number, int power)
+    {
+        int result = Math.Pow(number, power);
+        return result;
+    }
 }
