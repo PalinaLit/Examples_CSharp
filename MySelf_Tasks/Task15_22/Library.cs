@@ -13,6 +13,22 @@ public static class Library
         return number;
     }
 
+   
+
+    /// <summary>
+    /// Метод ввода числа от пользователя DOUBLE
+    /// </summary>
+    /// <param name="text">Тест, который видит пользователь
+    /// перед вводом числа</param>
+    /// <returns></returns>
+    public static double UserNumberInputDouble(string text)
+    {
+        Console.WriteLine(text);
+        double number = Convert.ToInt32(Console.ReadLine());
+        return number;
+    }
+
+
     /// <summary>
     /// Метод определения четности одного числа к другому
     /// и вывода результата
@@ -31,9 +47,9 @@ public static class Library
         }
     }
 
-    public static int RasingNumberToThePower(int number, int power)
+    public static double RasingNumberToThePower(int number, int power)
     {
-        int result = Math.Pow(number, power);
+        double result = Math.Pow(number, power);
         return result;
     }
 }

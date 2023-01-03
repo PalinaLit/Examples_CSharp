@@ -51,10 +51,22 @@ public static class Tasks_Library
     /// </summary>
     public static void Task17()
     {
-        int number = UserNumberInput("Input 1th integer number");
+        double number = UserNumberInputDouble("Input 1th integer number");
         int numberSquare = UserNumberInput("Input 2nd integer number");
 
-        
+        Console.WriteLine();
+
+        double square = RasingNumberToThePower(numberSquare, 2);
+        if (number == square)
+        {
+            Console.WriteLine("The number "+square+" is the square of number "+number);
+        }
+        else
+        {
+            Console.WriteLine("The number "+square+" is NOT the square of number "+number);
+        }
+
+
         
     }
 
