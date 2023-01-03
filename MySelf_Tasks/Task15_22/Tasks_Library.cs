@@ -9,6 +9,7 @@ public static class Tasks_Library
     {
         int userNumber = UserNumberInput("Input any integer number");
         Library.NumberMultiplicity(userNumber, 7);
+        Library.NumberMultiplicity(userNumber, 23);
     }
 
 }
