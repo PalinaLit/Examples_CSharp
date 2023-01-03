@@ -45,6 +45,19 @@ public static class Tasks_Library
         }
     }
 
+    /// <summary>
+    /// 17. По двум заданным числам проверять 
+    /// является ли одно квадратом другого
+    /// </summary>
+    public static void Task17()
+    {
+        int number = UserNumberInput("Input 1th integer number");
+        int numberSquare = UserNumberInput("Input 2nd integer number");
+
+        
+        
+    }
+
 }
 
 
