@@ -47,6 +47,12 @@ public static class Library
         }
     }
 
+    /// <summary>
+    /// Возведение числа в степень 
+    /// </summary>
+    /// <param name="number">число, которое возводим в степень</param>
+    /// <param name="power">степень, в которую возводим число</param>
+    /// <returns></returns>
     public static double RasingNumberToThePower(int number, int power)
     {
         double result = Math.Pow(number, power);

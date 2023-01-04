@@ -65,9 +65,29 @@ public static class Tasks_Library
         {
             Console.WriteLine("The number "+square+" is NOT the square of number "+number);
         }
-
-
         
+    }
+
+    /// <summary>
+    /// 18. Проверить истинность утверждения 
+    /// ¬(X ⋁ Y) = ¬X ⋀ ¬Y
+    /// </summary>
+    public static void Task18()
+    {
+        // ¬(X ⋁ Y) = ¬X ⋀ ¬Y
+        // инверсия, логическое НЕ
+        // ⋁ дизъюнкция, логическое ИЛИ
+        // ⋀ конъюнкция, логическое И
+
+        // X  Y  X⋁Y  ¬(X ⋁ Y)  ¬X  ¬Y  (¬X ⋀ ¬Y)
+        // 0  1   1       0      1   0      0
+        // 1  0   1       0      0   1      0
+        // 0  0   0       1      1   1      1
+        // 1  1   1       0      0   0      0
+
+        int[,] matrix = new int[5, 7];
+        
+
     }
 
 }
