@@ -80,13 +80,21 @@ public static class Tasks_Library
         // ⋀ конъюнкция, логическое И
 
         // X  Y  X⋁Y  ¬(X ⋁ Y)  ¬X  ¬Y  (¬X ⋀ ¬Y)
-        // 0  1   1       0      1   0      0
-        // 1  0   1       0      0   1      0
         // 0  0   0       1      1   1      1
+        // 1  0   1       0      0   1      0
+        // 0  1   1       0      1   0      0 
         // 1  1   1       0      0   0      0
 
-        int[,] matrix = new int[5, 7];
+        int x = 0;
+        int y = 0;
         
+        int x1 = 1;
+        int y1 = 1;
+
+        
+
+        Console.WriteLine("true");
+
 
     }
 
