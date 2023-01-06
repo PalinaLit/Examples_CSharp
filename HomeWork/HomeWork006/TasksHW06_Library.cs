@@ -55,10 +55,5 @@ public static class TasksHW06_Library
         Console.WriteLine(CoordinatePointIntersection(k1, b1, k2, b2));
         
     }
-    
-
-
-
-
 
 }
