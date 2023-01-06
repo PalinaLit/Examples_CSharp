@@ -114,7 +114,7 @@ public static class HW06_Library
         double firstX = (b2 - b1) / (k1 - k2);
         double secondX = k2 * firstX + b2;
         
-        result = $"[{firstX}, {secondX}]";
+        result = $"[{Math.Round(firstX, 2)}, {Math.Round(secondX, 2)}]";
 
         return result;
 
