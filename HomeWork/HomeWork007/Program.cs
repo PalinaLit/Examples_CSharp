@@ -1,5 +1,5 @@
-﻿// Урок 7. Двумерные массивы
-TasksHW07_Library.Task047();
+﻿//Урок 7. Двумерные массивы
+// TasksHW07_Library.Task047();
 Console.WriteLine();
 
 

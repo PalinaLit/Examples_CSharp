@@ -35,6 +35,14 @@ public static class TasksHW07_Library
     /// </summary>
     public static void Task050()
     {
+        int[,] matrix = new int [3, 4];
+        PrintArrayInt(matrix);
+
+        Console.WriteLine();
+
+        FillArrayInt(matrix);
+        PrintArrayInt(matrix);
+
         
     }
 }
