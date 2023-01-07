@@ -78,6 +78,10 @@ public static class HW07_Library
             }
     }
 
+    /// <summary>
+    /// Метод поиска и вывода элемента двумерного массива
+    /// </summary>
+    /// <param name="matrix">двумерный массив для поиска</param>
     public static void FindANDPrintMatrixFigureInt (int[,] matrix)
     {
         Console.WriteLine("Введите позицию элемента в двумерном массиве");
@@ -93,10 +97,7 @@ public static class HW07_Library
         else
         {
            Console.Write($"{matrix[a, b]}"); 
-        }
-
-        
-        
+        } 
     }
 
 }
