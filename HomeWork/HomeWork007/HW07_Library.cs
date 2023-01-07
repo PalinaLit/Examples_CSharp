@@ -4,7 +4,7 @@ public static class HW07_Library
     /// Метод заполнения матрицы рандомными целыми числами 
     /// </summary>
     /// <param name="matr">имя массива для заполнения</param>
-    public static void FillArray(double[,] matr)
+    public static void FillArrayDouble(double[,] matr)
     {
         Random number = new Random();
         for (int i = 0; i < matr.GetLength(0); i++)
@@ -21,7 +21,7 @@ public static class HW07_Library
     /// Метод вывода матрицы (двумерного массива)
     /// </summary>
     /// <param name="matr">имя массива для вывода</param>
-    public static void PrintArray (double[,] matr)
+    public static void PrintArrayDouble(double[,] matr)
     { 
         for(int rows = 0; rows < matr.GetLength(0); rows++)
             {

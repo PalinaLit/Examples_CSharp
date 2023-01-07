@@ -13,12 +13,12 @@ public static class TasksHW07_Library
     {
     
         double[,] matrix = new double[3, 4];
-        PrintArray(matrix); 
+        PrintArrayDouble(matrix); 
 
         Console.WriteLine();
 
-        FillArray(matrix);
-        PrintArray(matrix);
+        FillArrayDouble(matrix);
+        PrintArrayDouble(matrix);
        
     }
 
