@@ -100,4 +100,26 @@ public static class HW07_Library
         } 
     }
 
+    /// <summary>
+    /// Метод поиска среднего арифметического столбца двумерного масива
+    /// и вывода результата
+    /// </summary>
+    /// <param name="matrix">двумерный массив для подсчета</param>
+    public static void MatrixColummArithmeticMean (int[,] matrix)
+    {
+        for(int columm = 0; columm < matrix.GetLength(1); columm++)
+            {
+                int rows = 0;
+                double arithmeticMean = 0;
+                double result = 0;
+                while(rows < matrix.GetLength(0))
+                {  
+                arithmeticMean += matrix[rows, columm];
+                rows++;
+                }
+                result = Math.Round (arithmeticMean / matrix.GetLength(0), 1);
+                Console.WriteLine($"Среднее арифметическое стобаца #"+columm+" -> "+result);           
+            }
+    }
+
 }
