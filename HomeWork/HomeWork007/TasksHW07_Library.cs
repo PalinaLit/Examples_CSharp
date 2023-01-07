@@ -35,13 +35,21 @@ public static class TasksHW07_Library
     /// </summary>
     public static void Task050()
     {
-        int[,] matrix = new int [3, 4];
+        int a = UserInputIntNumber("Введите количество строк в двумерном массиве");
+        int b = UserInputIntNumber("Введите количество столбцов в двумерном массиве");
+
+        Console.WriteLine();
+
+        int[,] matrix = new int [a, b];
         PrintArrayInt(matrix);
 
         Console.WriteLine();
 
         FillArrayInt(matrix);
         PrintArrayInt(matrix);
+        Console.WriteLine();
+
+        HW07_Library.FindANDPrintMatrixFigureInt(matrix);
 
         
     }

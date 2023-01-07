@@ -39,7 +39,7 @@ public static class HW07_Library
     /// </summary>
     /// <param name="text">текс, который видит юзер перед вводом числа</param>
     /// <returns></returns>
-    public static int UserInput(string text)
+    public static int UserInputIntNumber(string text)
     {
         Console.WriteLine(text);
         int number = Convert.ToInt32(Console.ReadLine());
@@ -76,6 +76,27 @@ public static class HW07_Library
                 }
             Console.WriteLine();           
             }
+    }
+
+    public static void FindANDPrintMatrixFigureInt (int[,] matrix)
+    {
+        Console.WriteLine("Введите позицию элемента в двумерном массиве");
+        int a = UserInputIntNumber("Укажите строку: ");
+        Console.WriteLine();
+        int b = UserInputIntNumber("Укажите столбец: ");
+        Console.WriteLine();
+
+        if (a > matrix.GetLength(0) && b > matrix.GetLength(0))
+        {
+         Console.WriteLine("Элемента массива с данной позицией не найдено");
+        }
+        else
+        {
+           Console.Write($"{matrix[a, b]}"); 
+        }
+
+        
+        
     }
 
 }
