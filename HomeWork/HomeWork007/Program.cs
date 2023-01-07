@@ -1,9 +1,9 @@
 ﻿//Урок 7. Двумерные массивы
-// TasksHW07_Library.Task047();
+TasksHW07_Library.Task047();
 Console.WriteLine();
 
 
-// TasksHW07_Library.Task050();
+TasksHW07_Library.Task050();
 Console.WriteLine();
 
 TasksHW07_Library.Task052();
