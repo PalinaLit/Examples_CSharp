@@ -61,20 +61,36 @@ public static class Hw008_Library
     }
 
     /// <summary>
-    /// Метод определения суммы элементов строки двумерного массива
+    /// Метод определения суммы элементов строки двумерного массива 
+    /// и вывода строки с наименьшей суммой элементов
     /// </summary>
     /// <param name="matrix">двумерный массив</param>
     public static void MatrixLineElementSum (int[,] matrix)
     {
+        int minSum = 0;
+        int rowSum = 0;
+        int result = 0;
+        int columnNumber = 0;
+
         for ( int column = 0; column < matrix.GetLength(0); column++)
+        {
+            rowSum = 0;
+            for ( int row = 0; row < matrix.GetLength(1); row++)
             {
-                int result = 0;
-                for ( int row = 0; row < matrix.GetLength(1); row++)
-                {
-                    
-                    result += matrix[column, row];
-                }
-                Console.WriteLine("Сумма строки #" + column + " -> " + result);
+                rowSum += matrix[column, row];
             }
+            Console.WriteLine("Сумма элементов строки #" + column + " –> " + rowSum);
+            
+            if (rowSum < minSum)
+            {
+              result = rowSum;
+              columnNumber = column;
+            }
+            minSum = rowSum;
+        }
+        Console.WriteLine();
+        Console.WriteLine("Строка с минимальной суммой элементов равной – строка #" + columnNumber);
+
     }
+
 }
