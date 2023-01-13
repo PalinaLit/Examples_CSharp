@@ -38,36 +38,20 @@ public static class Hw008_Library
 
     public static void AscendingMatrixStringNumbers (int[,] matrix)
     {
-        int max = 0;
-        int column = 0;
-        int row = 0;
-        if (column < matrix.GetLength(0) && row < matrix.GetLength(1))
-        {
-            while (max < matrix [column, row])
-                { 
-                    for ( column = 0; column < matrix.GetLength(0); column++)
+        for ( int column = 0; column < matrix.GetLength(0); column++)
+            {
+                for ( int row = 0; row < matrix.GetLength(1); row++)
                     {
-
-                        for ( row = 0; row < matrix.GetLength(1); row++)
+                        for (int r = 0; r < matrix.GetLength(1) - 1; r++)
+                        {
+                            if (matrix [column, r + 1] > matrix [column, r])
                             {
-                                max = matrix [column, row];
-                                int r = 0;
-                                for (r = 0; r < matrix.GetLength(1); r++)
-                                {   
-                                    int a  = 0;
-                                    a = matrix [column, r];
-                                    matrix [column, r] = max;
-                                    matrix [column, row] = a;
-                                    r++;
-                                }
-                                
+                                int place = matrix [column, r + 1];
+                                matrix [column, r + 1] = matrix [column, r];
+                                matrix [column, r] = place;
                             }
-                        
+                        }
                     }
-                        
-                }
-                
-            
-       }
+            }           
     }
 }
