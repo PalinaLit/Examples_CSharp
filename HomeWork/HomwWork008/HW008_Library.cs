@@ -36,6 +36,11 @@ public static class Hw008_Library
             }
     }
 
+    /// <summary>
+    /// Метод построения по убыванию элементов
+    /// каждой строки двумерного массива
+    /// </summary>
+    /// <param name="matrix">двумерный массив</param>
     public static void AscendingMatrixStringNumbers (int[,] matrix)
     {
         for ( int column = 0; column < matrix.GetLength(0); column++)
