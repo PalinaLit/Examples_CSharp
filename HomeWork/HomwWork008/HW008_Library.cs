@@ -59,4 +59,22 @@ public static class Hw008_Library
                     }
             }           
     }
+
+    /// <summary>
+    /// Метод определения суммы элементов строки двумерного массива
+    /// </summary>
+    /// <param name="matrix">двумерный массив</param>
+    public static void MatrixLineElementSum (int[,] matrix)
+    {
+        for ( int column = 0; column < matrix.GetLength(0); column++)
+            {
+                int result = 0;
+                for ( int row = 0; row < matrix.GetLength(1); row++)
+                {
+                    
+                    result += matrix[column, row];
+                }
+                Console.WriteLine("Сумма строки #" + column + " -> " + result);
+            }
+    }
 }
