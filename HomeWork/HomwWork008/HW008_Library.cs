@@ -89,7 +89,7 @@ public static class Hw008_Library
             minSum = rowSum;
         }
         Console.WriteLine();
-        Console.WriteLine("Строка с минимальной суммой элементов равной – строка #" + columnNumber);
+        Console.WriteLine("Строка с минимальной суммой элементов – строка #" + columnNumber);
 
     }
 
