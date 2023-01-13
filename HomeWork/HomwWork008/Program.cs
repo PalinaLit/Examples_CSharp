@@ -1,8 +1,11 @@
-﻿HW008_TasksLibrary.Task054();
-Console.WriteLine();
+﻿// HW008_TasksLibrary.Task054();
+// Console.WriteLine();
 
 
-HW008_TasksLibrary.Task056();
+// HW008_TasksLibrary.Task056();
+// Console.WriteLine();
+
+HW008_TasksLibrary.Task060();
 Console.WriteLine();
 
 // Сложная | можно пропустить

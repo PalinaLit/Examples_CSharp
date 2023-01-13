@@ -93,4 +93,64 @@ public static class Hw008_Library
 
     }
 
+    /// <summary>
+    /// Метод заполнение трехмерного масива рандомными числами
+    /// </summary>
+    /// <param name="matrix">трехмерный массив</param>
+    public static void CreatMatrix3D (int[,,] matrix)
+    {
+        int[] length = new int[matrix.GetLength(0) * matrix.GetLength(1) * matrix.GetLength(2)];
+        int  number;
+        for (int column = 0; column < length.GetLength(0); column++)
+        {
+            length[column] = new Random().Next(10, 100);
+            number = length[column];
+            if (column >= 1)
+            {
+            for (int row = 0; row < column; row++)
+            {
+                while (length[column] == length[row])
+                {
+                length[column] = new Random().Next(10, 100);
+                row = 0;
+                number = length[column];
+                }
+                number = length[column];
+            }
+            }
+        }
+        int count = 0; 
+        for (int y = 0; y < matrix.GetLength(0); y++)
+        {
+            for (int x = 0; x < matrix.GetLength(1); x++)
+            {
+            for (int z = 0; z < matrix.GetLength(2); z++)
+            {
+                matrix[y, x, z] = length[count];
+                count++;
+            }
+            }
+        }
+    }
+
+    /// <summary>
+    /// Метод вывода трехмерного массива и индексом его элементов
+    /// </summary>
+    /// <param name="matrix">трехмерный массив</param>
+    public static void Print3DMatrix (int[,,] matrix)
+    {
+        for (int rows = 0; rows < matrix.GetLength(0); rows++)
+        {
+            for (int column = 0; column < matrix.GetLength(1); column++)
+            {
+                for (int three = 0; three < matrix.GetLength(2); three++)
+                {
+                    Console.Write( $"{matrix[rows,column,three]} {(rows,column,three)}    ");
+                }
+                Console.WriteLine();
+            }
+            // Console.WriteLine();
+        }
+    }
+
 }
