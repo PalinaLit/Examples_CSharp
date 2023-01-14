@@ -11,9 +11,29 @@ public static class HW009_TasksLibrary
     /// </summary>
     public static void Task064()
     {
-        int number = UserInputIntNumber("Введите целое число");
+        int number = UserInputIntNumber("Введите натуральное число");
         Console.WriteLine();
-        HW09_Library.NaturalNumbersOutPut(number);
+        HW09_Library.NaturalNumbersOutPut(number, 0);
+    }
+
+    /// <summary>
+    /// Задача 66: Задайте значения M и N. 
+    /// Напишите программу, которая найдёт сумму натуральных 
+    /// элементов в промежутке от M до N.
+    /// M = 1; N = 15 -> 120
+    /// M = 4; N = 8. -> 30
+    /// </summary>
+    public static void Task066()
+    {
+        Console.WriteLine("Задан промежуток от M до N");
+        Console.WriteLine();
+        int M = UserInputIntNumber("Введите натуральное число для М");
+        int N = UserInputIntNumber("Введите натуральное число для N");
+        Console.WriteLine();
+        
+        HW09_Library.NaturalBetweenNumbersSum(M, N);
+
+        
     }
 
 }

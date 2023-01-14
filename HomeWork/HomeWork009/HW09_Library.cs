@@ -12,14 +12,32 @@ public static class HW09_Library
         return number;
     }
 
-
-    public static int NaturalNumbersOutPut (int number)
+    /// <summary>
+    /// Метод определения натуральный чисел от минимального числа 
+    /// до заданного числа
+    /// </summary>
+    /// <param name="number">заданное число</param>
+    /// <param name="min">минимальное число промежутка</param>
+    /// <returns></returns>
+    public static int NaturalNumbersOutPut (int number, int min)
     {
-        while (number > 0)
+        while (number >= min && number != 0)
         {
             Console.WriteLine ("  " + $"{number}");
             number -= 1;
         }
         return number;
+    }
+
+    public static void NaturalBetweenNumbersSum (int min, int max)
+    {
+        int result = 0;
+        for (int sum = min; sum <= max; sum++ )
+        {
+            result += sum; 
+        }
+        Console.Write("Сумма натуральных чисел промежутка = "+$"{result}");
+
+
     }
 }
