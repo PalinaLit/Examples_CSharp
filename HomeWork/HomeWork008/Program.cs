@@ -4,6 +4,8 @@ Console.WriteLine();
 
 HW008_TasksLibrary.Task056();
 Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine();
 
 HW008_TasksLibrary.Task060();
 Console.WriteLine();
