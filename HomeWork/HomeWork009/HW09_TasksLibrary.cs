@@ -52,12 +52,16 @@ public static class HW009_TasksLibrary
         // A(0, n) = n + 1,
         // A(1, n) = n + 2,
         // A(2, n) = 2n + 3,
-        // A(3, n) = 2n+3 – 3
+        // A(3, n) =  2n+3 – 3
       
        
-    
+        Console.WriteLine("Вычесление функции Аккермана А(2, 3)");
+
         Console.WriteLine(AkkermanFunction(2, 3));
-    
+
+        Console.WriteLine("Вычесление функции Аккермана А(3, 2)");
+
+        Console.WriteLine(AkkermanFunction(3, 2));
 
         
     }
