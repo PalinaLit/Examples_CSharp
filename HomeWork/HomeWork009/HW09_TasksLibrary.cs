@@ -32,6 +32,32 @@ public static class HW009_TasksLibrary
         Console.WriteLine();
         
         HW09_Library.NaturalBetweenNumbersSum(M, N);
+        
+    }
+
+    /// <summary>
+    /// Задача 68: Напишите программу вычисления
+    /// функции Аккермана с помощью рекурсии.
+    /// Даны два неотрицательных числа m и n.
+    /// m = 2, n = 3 -> A(m,n) = 9;
+    /// m = 3, n = 2 -> A(m,n) = 29;
+    /// </summary>
+     public static void Task068()
+    {
+        // Если m = 0, то A(0, n) = n + 1.
+        // Если m = 1, то A(1, n) = A(0, A(1, n – 1)) 
+        // Если m = 2, то A(2, n) = A(1, A(2, n – 1))
+        // Если m = 3, то A(3, n) = A(2, A(3, n – 1))
+
+        // A(0, n) = n + 1,
+        // A(1, n) = n + 2,
+        // A(2, n) = 2n + 3,
+        // A(3, n) = 2n+3 – 3
+      
+       
+    
+        Console.WriteLine(AkkermanFunction(2, 3));
+    
 
         
     }
